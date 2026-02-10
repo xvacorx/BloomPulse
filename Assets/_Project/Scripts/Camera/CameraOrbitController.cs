@@ -26,7 +26,7 @@ public class CameraOrbitController : MonoBehaviour
 
         float horizontalDelta = 0;
         float verticalDelta = 0;
-
+        
         if (Keyboard.current != null)
         {
             if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) horizontalDelta -= keyboardSensitivity * Time.deltaTime;
